@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+span {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #555555;
+}
+
+.menu ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.banner img {
+    width: 100%;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+/* ABOUT */
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.about {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.about span {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.about img {
+    max-width: 660px;
+    margin: 20px 0 0 0;
+    vertical-align: middle;
+}
+
+/* MUSIC */
+
+.music {
+    margin: 200px 0 40px 17%;
+    text-align: left;
+}
+
+.music li {
+    padding-top: 7px;
+}
+
+/* CONTACT */
+
+.contact {
+    margin: 200px 0 40px 17%;
+    text-align: left;
+}
+
+.contact span {
+    padding-bottom: 10px;
+}
